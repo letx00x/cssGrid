@@ -1,28 +1,16 @@
+body
+   color: white
 .container
    background-color: #333
-   width: 1000px
-   margin: 0 auto
-
    display: grid
-   grid-template-columns: 150px 150px 150px
-   grid-template-rows: 150px 150px
+   grid-template-columns: repeat(4, 1fr)
+   grid-template-rows: 150px 300px 600px 150px
    grid-gap: 20px
-
-.item
-   font-size: 22px
-   color: #fff
-   padding: 20px
-   font-family: sans-serif
-   &-1
-      background-color: red
-      grid-area: 2/2/3/3
-   &-2
-      background-color: pink
-   &-3
-      background-color: blue
-   &-4
-      background-color: brown
-.item-5
-   background-color: orange
-.item-6
-   background-color: green
+.box
+   background-color: #be3737
+   text-align: center
+.header
+   grid-column: 1/-1
+.footer
+   grid-column: 1/-1
+   grid-row: 4/-1
