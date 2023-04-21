@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-.container{background-color:#333;width:1000px;margin:0 auto;display:grid;grid-template-columns:150px 150px 150px;grid-template-rows:150px 150px}.item-1{background-color:red}.item-2{background-color:pink}.item-3{background-color:#00f}.item-4{background-color:brown}.item-5{background-color:orange}.item-6{background-color:green}.item{font-size:22px;color:#fff;padding:15px}
-=======
-.container{background-color:#333;width:1000px;margin:0 auto}.item-1{background-color:red}.item-2{background-color:pink}.item-3{background-color:#00f}.item-4{background-color:brown}.item-5{background-color:orange}.item-6{background-color:green}
->>>>>>> d547398608d6562ff8b4e02e5237875913423083
+.container{background-color:#333;width:1000px;margin:0 auto;display:grid;grid-template-columns:150px 150px 150px;grid-template-rows:150px 150px;grid-gap:20px}.item{font-size:22px;color:#fff;padding:20px;font-family:sans-serif}.item-1{background-color:red;grid-area:2/2/3/3}.item-2{background-color:pink}.item-3{background-color:#00f}.item-4{background-color:brown}.item-5{background-color:orange}.item-6{background-color:green}
